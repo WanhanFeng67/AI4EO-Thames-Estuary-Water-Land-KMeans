@@ -1,5 +1,3 @@
-# AI4EO-Thames-Estuary-Water-Land-KMeans
-Water-land boundary mapping and water extent comparison in the Thames Estuary using Sentinel-2 imagery and K-means clustering.
 # Water–Land Boundary Mapping and Water Extent Comparison in the Thames Estuary Using Sentinel-2 Imagery and K-means Clustering
 
 ## 1. Project Overview
