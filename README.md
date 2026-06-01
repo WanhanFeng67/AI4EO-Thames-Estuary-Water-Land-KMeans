@@ -200,31 +200,6 @@ Overall, this project represents a low-computation AI4EO workflow suitable for r
 
 ---
 
-## 10. How to Run the Code
-
-The full workflow is provided in the notebook:
-
-```text
-notebooks/thames_estuary_water_land_kmeans.ipynb
-```
-
-To run the notebook:
-
-1. Open the notebook in Google Colab.
-2. Install the required packages if needed.
-3. Authenticate Google Earth Engine.
-4. Replace the Google Earth Engine project ID with your own project ID if necessary.
-5. Run the notebook cells in order.
-
-Required Python packages are listed in:
-
-```text
-requirements.txt
-```
-
----
-
-
-## 11. Acknowledgement
+## 10. Acknowledgement
 
 This project builds on tools and methods covered in the AI4EO course, including Google Earth Engine data access, Sentinel-2 image processing, NDWI calculation, and unsupervised K-means clustering. The project adapts these tools to a new environmental monitoring problem: water-land boundary mapping and water extent comparison in the Thames Estuary.
