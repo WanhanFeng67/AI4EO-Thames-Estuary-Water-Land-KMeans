@@ -68,7 +68,7 @@ The project follows three main workflow stages:
 
 ### 5.1 Remote Sensing Workflow
 
-![Remote sensing workflow](figures/remote_sensing_workflow_for_ndwi_generation.png)
+![Remote sensing workflow](<Remote sensing workflow diagram.png>)
 
 Sentinel-2 imagery was accessed through Google Earth Engine. Images were filtered by date, location, and cloud cover. A summer median composite was created for each study year to reduce noise and improve spatial coverage. NDWI was then calculated from the Green and NIR bands.
 
@@ -82,7 +82,7 @@ where B3 is the green band and B8 is the near-infrared band in Sentinel-2 imager
 
 ### 5.2 K-means Classification Workflow
 
-![K-means workflow](figures/k_means_classification_workflow_diagram.png)
+![K-means workflow](<K-means classification workflow diagram.png>)
 
 K-means clustering was applied to the NDWI image using two clusters. The cluster with the higher mean NDWI value was interpreted as water, while the cluster with the lower mean NDWI value was interpreted as land.
 
@@ -97,7 +97,7 @@ This allows the model to classify the study area into water and land without man
 
 ### 5.3 Water Extent Comparison Workflow
 
-![Water extent comparison workflow](figures/water_extent_comparison_workflow_diagram.png)
+![Water extent comparison workflow](<Water extent comparison workflow diagram.png>)
 
 The water masks from 2020 and 2024 were compared to identify classified water gain and water loss.
 
@@ -114,25 +114,25 @@ This comparison was used to produce a water extent change map. However, the resu
 
 ### 6.1 Sentinel-2 RGB Composite, 2024
 
-![Sentinel-2 RGB 2024](figures/sentinel2_rgb_2024.png)
+![Sentinel-2 RGB 2024](<Sentinel-2 RGB Composite of the Thames Estuary (2024).png>)
 
 This figure shows the Sentinel-2 true-colour composite of the Thames Estuary in 2024. It provides the original remote sensing context before applying NDWI and K-means classification.
 
 ### 6.2 NDWI Map, 2024
 
-![NDWI 2024](figures/ndwi_2024.png)
+![NDWI 2024](<NDWI Map of the Thames Estuary (2024).png>)
 
 This figure shows the NDWI map derived from the Sentinel-2 Green and NIR bands. Higher NDWI values highlight water bodies, while lower values generally correspond to land surfaces.
 
 ### 6.3 K-means Water-Land Classification, 2024
 
-![K-means water-land classification 2024](figures/kmeans_water_land_2024.png)
+![K-means water-land comparison](<K-means Water-Land Classification comparison （2020-2024） .png>)
 
 This figure shows the final K-means water-land classification for 2024. Blue represents water and green represents land. The boundary between the two classes represents the detected water-land boundary.
 
 ### 6.4 NDWI Threshold vs K-means Water Mask, 2024
 
-![NDWI threshold vs K-means](figures/ndwi_threshold_vs_kmeans_2024.png)
+![NDWI threshold vs K-means](<NDWI Threshold vs K-means Water Mask (2024).png>)
 
 This figure compares the K-means water mask with a simple NDWI threshold method. The threshold method acts as a baseline comparison to visually assess whether the unsupervised K-means classification produces a reasonable water mask.
 
@@ -144,7 +144,7 @@ This figure compares the K-means water-land classification results for 2020 and 
 
 ### 6.6 Detected Water Extent Change, 2020–2024
 
-![Water gain loss](figures/water_gain_loss_2020_2024.png)
+![Water gain loss](<Detected Water Extent Change (2020–2024).png>)
 
 This figure shows detected water extent change between 2020 and 2024. Blue areas indicate pixels classified as water in 2024 but not in 2020, while red areas indicate pixels classified as water in 2020 but not in 2024.
 
