@@ -156,11 +156,13 @@ After generating the K-means water and land masks, the area of each class was ca
 
 | Year | Water area km² | Land area km² |
 |---|---:|---:|
-| 2020 | Add result here | Add result here |
-| 2024 | Add result here | Add result here |
-| Difference | Add result here | Add result here |
+| 2020 | 515.32 | 449.88 |
+| 2024 | 474.18 | 491.02 |
+| Difference, 2024 - 2020 | -41.14 | 41.14 |
 
-The area calculation provides a simple quantitative comparison of classified water extent between 2020 and 2024. However, these values should be interpreted carefully because water extent in estuarine environments can be strongly affected by tide stage and exposed mudflats.
+The area calculation shows that the classified water area decreased from 515.32 km² in 2020 to 474.18 km² in 2024, while the classified land area increased from 449.88 km² to 491.02 km². This indicates a net decrease of 41.14 km² in classified water extent within the selected study area.
+
+However, these values should be interpreted carefully. Because the Thames Estuary is strongly affected by tides, exposed mudflats, seasonal variation, and satellite acquisition timing, the area difference should be understood as a comparison of classified water extent between two image composites rather than definitive long-term shoreline change.
 
 ---
 
