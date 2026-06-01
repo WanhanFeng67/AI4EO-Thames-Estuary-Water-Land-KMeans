@@ -126,7 +126,7 @@ This figure shows the NDWI map derived from the Sentinel-2 Green and NIR bands. 
 
 ### 6.3 K-means Water-Land Classification, 2024
 
-![K-means water-land comparison](<K-means Water-Land Classification comparison （2020-2024） .png>)
+![K-means water-land comparison](<K-means Water-Land Classification comparison （2020-2024）.png>)
 
 This figure shows the final K-means water-land classification for 2024. Blue represents water and green represents land. The boundary between the two classes represents the detected water-land boundary.
 
@@ -138,7 +138,7 @@ This figure compares the K-means water mask with a simple NDWI threshold method.
 
 ### 6.5 K-means Water-Land Classification Comparison, 2020–2024
 
-![2020 2024 K-means comparison](figures/kmeans_water_land_2020_2024_comparison.png)
+![2020 2024 K-means comparison](<K-means Water-Land Classification comparison （2020-2024）.png>)
 
 This figure compares the K-means water-land classification results for 2020 and 2024. It provides a visual comparison of classified water extent across two time periods.
 
